@@ -1,0 +1,22 @@
+{
+    "name": "R DevContainer",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "containerEnv": {
+        "PROJECT_DIR": "${containerWorkspaceFolder}"
+    },
+    "settings": {
+        "terminal.integrated.profiles.linux": {
+            "bash": {
+                "path": "bash",
+                "icon": "terminal-bash"
+            }
+        }
+    },
+    "extensions": [
+        "mutantdino.resourcemonitor",
+        "REditorSupport.r"
+    ],
+    "remoteUser": "vscode"
+}
